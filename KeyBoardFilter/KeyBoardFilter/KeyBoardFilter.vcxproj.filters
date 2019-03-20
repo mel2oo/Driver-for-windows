@@ -24,7 +24,12 @@
     </Inf>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
