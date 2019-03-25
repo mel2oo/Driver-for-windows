@@ -3,13 +3,18 @@
 
 #include <ntifs.h>
 
+#pragma warning(disable : 4047)  
+
 extern POBJECT_TYPE *IoDriverObjectType;
 extern PDRIVER_OBJECT g_pDriverObject;
+extern PSHORT NtBuildNumber;
 
 #define DELAY_ONE_MICROSECOND 	(-10)
 #define DELAY_ONE_MILLISECOND	(DELAY_ONE_MICROSECOND*1000)
 
 typedef NTSTATUS(__fastcall *MiProcessLoaderEntry)(PVOID pDriverSection, BOOLEAN bLoad);
+
+extern MiProcessLoaderEntry g_pfnMiProcessLoaderEntry;
 
 NTSYSAPI
 NTSTATUS

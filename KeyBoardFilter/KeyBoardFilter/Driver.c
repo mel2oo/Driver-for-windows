@@ -31,7 +31,7 @@ VOID DriverUnload(PDRIVER_OBJECT pDriverObject)
 		if (1 == ((PDEVICE_EXTENSION)pDevObj->DeviceExtension)->ulIrpInQuene)
 		{
 			//取消掉最后一个IRP
-			IoCancelIrp(((PDEVICE_EXTENSION)pDevObj->DeviceExtension)->pLastIrp);
+			//IoCancelIrp(((PDEVICE_EXTENSION)pDevObj->DeviceExtension)->pLastIrp);
 		}
 		
 	}

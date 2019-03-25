@@ -34,7 +34,7 @@ VOID Unload(PDRIVER_OBJECT pDriverObject)
 
 	RtlInitUnicodeString(&strLink, HIDE_LINK_NAME);
 
-	IoDeleteDevice(&strLink);
+	IoDeleteSymbolicLink(&strLink);
 	IoDeleteDevice(pDriverObject->DeviceObject);
 }
 
@@ -43,6 +43,8 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT pDriverObject, PUNICODE_STRING pRegisterPath
 	NTSTATUS status;
 	UNICODE_STRING DevName, SymLink;
 	PDEVICE_OBJECT pDevObj;
+
+	KdBreakPoint();
 
 	RtlInitUnicodeString(&DevName, HIDE_DEVICE_NAME);
 
