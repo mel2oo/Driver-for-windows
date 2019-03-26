@@ -4,7 +4,7 @@
 
 # 2019.3.25    0x04 MiniVT-XP
 
-  MiniVT on windows XP.
+  MiniVT on windows XP、windows7 x86+x64.
   
              from https://bbs.pediy.com/thread-211973.htm
 
