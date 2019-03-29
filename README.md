@@ -2,6 +2,8 @@
 
 # Build vs2017+WDK1809
 
+# 2019.3.29    0x05 RegisterMonitor
+
 # 2019.3.29    0x05 MonitorProcessAndImage
 
   Use PsSetCreateProcessNotifyRoutineEx	\ PsSetLoadImageNotifyRoutine 
