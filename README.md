@@ -2,7 +2,13 @@
 
 # Build vs2017+WDK1809
 
-# 2019.3.25    0x04 MiniVT-XP
+# 2019.3.29    0x05 MonitorProcessAndImage
+
+  Use PsSetCreateProcessNotifyRoutineEx	\ PsSetLoadImageNotifyRoutine 
+  
+		to monitor Process Create or destruction.
+
+# 2019.3.25    0x04 MiniVTx86 \ MiniVTx64 \ MiniVT_Multicore
 
   MiniVT on windows XP、windows7 x86+x64.
   
