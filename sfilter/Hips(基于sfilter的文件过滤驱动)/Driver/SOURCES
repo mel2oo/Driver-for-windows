@@ -1,0 +1,8 @@
+TARGETNAME=hipsdrv
+TARGETPATH=Debug
+TARGETTYPE=DRIVER
+DRIVERTYPE=FS
+
+
+SOURCES=sfilter.c namelookup.c SFLock.c misc.c hash.c UserInteraction.c
+

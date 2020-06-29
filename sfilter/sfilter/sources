@@ -1,0 +1,11 @@
+TARGETNAME=SFilterDrv
+TARGETPATH=Debug
+TARGETTYPE=DRIVER
+DRIVERTYPE=FS
+
+INCLUDES=..\lib
+
+SOURCES=sfilter.c   \
+	namelookup.c \
+        sfilter.rc
+

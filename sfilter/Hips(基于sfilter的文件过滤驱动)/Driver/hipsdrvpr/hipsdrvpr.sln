@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hipsdrvpr", "hipsdrvpr.vcxproj", "{7C230B8A-4118-4025-B21A-85E1CEC10BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C230B8A-4118-4025-B21A-85E1CEC10BAB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C230B8A-4118-4025-B21A-85E1CEC10BAB}.Debug|Win32.Build.0 = Debug|Win32
+		{7C230B8A-4118-4025-B21A-85E1CEC10BAB}.Release|Win32.ActiveCfg = Release|Win32
+		{7C230B8A-4118-4025-B21A-85E1CEC10BAB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD24941D-1A0F-4A85-B926-0F258FE3EA62}
+	EndGlobalSection
+EndGlobal
