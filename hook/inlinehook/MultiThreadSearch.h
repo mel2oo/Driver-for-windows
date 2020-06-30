@@ -1,0 +1,1 @@
+ULONG MultiThreadSearchFunAddr(WCHAR *);
