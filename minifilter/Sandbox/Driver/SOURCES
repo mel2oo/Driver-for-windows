@@ -1,0 +1,11 @@
+TARGETNAME=sandbox
+TARGETPATH=debug
+TARGETTYPE=DRIVER
+
+TARGETLIBS= $(TARGETLIBS) \
+            $(IFSKIT_LIB_PATH)\fltMgr.lib \
+            $(IFSKIT_LIB_PATH)\ndis.lib\
+		$(DDK_LIB_PATH)\ntstrsafe.lib
+
+C_DEFINES = $(C_DEFINES) /DMY_DEBUG
+SOURCES=main.c MiniMon.c sandbox.c IPC.c utilApi.c sbtoolApi.c

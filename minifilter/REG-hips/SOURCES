@@ -1,0 +1,5 @@
+TARGETNAME=HipsRegDrv
+TARGETPATH=Debug
+TARGETTYPE=DRIVER
+
+SOURCES=main.c regmon.c
